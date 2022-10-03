@@ -1,0 +1,13 @@
+.usernameContainer {
+  font-size: 14px;
+  line-height: 20px;
+
+  &__name {
+    color: #1B1B1B;
+    font-weight: 600;
+  }
+
+  &__surname {
+    color: #7D7D7D;
+  }
+}

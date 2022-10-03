@@ -1,0 +1,10 @@
+@import '../styles/fonts.scss';
+
+.App {
+  display: grid;
+  margin-left: 64px;
+  margin-right: 64px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 32px;
+  font-family: 'Graphik LCG';
+}
