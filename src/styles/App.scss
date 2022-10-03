@@ -1,10 +1,37 @@
 @import '../styles/fonts.scss';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   display: grid;
   margin-left: 64px;
   margin-right: 64px;
   grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(7, minmax(0, 1fr));
   column-gap: 32px;
   font-family: 'Graphik LCG';
+}
+
+h1 {
+  color: #1B1B1B;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+.lead-text {
+  font-size: 24px;
+  line-height: 32px;
+  color: #1B1B1B;
+  font-weight: 400;
+}
+
+.lesser-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
 }

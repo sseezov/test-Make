@@ -1,0 +1,16 @@
+.nav {
+  grid-column: span 3 / span 3;
+  grid-row: 3;
+
+  &__list {
+    list-style-type: none;
+    color: #7D7D7D;
+    li {
+      margin-bottom: 16px;
+    }
+
+    li:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
